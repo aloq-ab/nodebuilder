@@ -1,4 +1,4 @@
-FROM node:14.15-jessie
+FROM node:16-alpine
 
 # Update NPM.
 RUN npm install npm@latest -g
