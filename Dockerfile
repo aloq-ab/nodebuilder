@@ -1,4 +1,4 @@
-FROM node:16-stretch
+FROM node:14-stretch
 
 # Update NPM.
 RUN npm install npm@latest -g
